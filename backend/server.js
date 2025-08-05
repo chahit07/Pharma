@@ -7,7 +7,7 @@ const morgan = require('morgan'); // For logging requests
 
 // CORS middleware - Add this BEFORE other middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Your React app URL
+  origin: 'https://pharmadesk.onrender.com', // Your React app URL
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
